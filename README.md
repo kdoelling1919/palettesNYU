@@ -12,7 +12,7 @@ git clone https://github.com/kdoelling1919/palettesNYU.git
 ```
 
 ### Inkscape
-You can then add these palettes into the Inkscape palette directory. On Mac, this directory is often found in the ```~/.config``` folder but may have been moved elsewhere. If it is in the usual place, then you can use the following command in the command line to copy your new .gpl files over. Otherwise, you will need to replace the last path with the correct directory. 
+You can then add these palettes into the Inkscape palette directory. On Mac, this directory is often found in the ```~/.config``` folder but may have been moved elsewhere. If it is in the usual place, then you can use the following command in the command line to copy your new .gpl files over. Otherwise, you will need to replace the last path in the command with the correct directory. 
 
 ```
 cp palettesNYU/*.gpl ~/.config/inkscape/palettes/
