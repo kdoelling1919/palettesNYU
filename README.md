@@ -27,4 +27,5 @@ GIMP will be able to import these palettes directly by going to Windows -> Docka
 
 The current list of color palettes are set by NYU Color Design (last updated 9/30/2014). You can find a pdf of these color palettes [here](https://www.nyu.edu/content/dam/nyu/advertisePublications/documents/standards/ReadyMadeColorPalettes_121214.pdf).
 
-You can also see these color patterns below. ![NYU Color Palettes](./ReadyMadeColorPalettes_121214.pdf)
+You can also see these color patterns below. 
+![NYU Color Palettes](ReadyMadeColorPalettes_121214.pdf)
