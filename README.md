@@ -2,7 +2,7 @@
 
 ## Why do I exist?
 
-This repository is meant to put a set of ready-made color palettes defined by [New York University](www.nyu.edu) into a format (GIMP Palette) that is easily usible for figure, poster and presentation design in [Inkscape](https://inkscape.org/en/) and [GIMP](https://www.gimp.org).
+This repository is meant to put a set of ready-made color palettes defined by [New York University](https://www.nyu.edu/employees/resources-and-services/media-and-communications/styleguide.html) into a format (GIMP Palette) that is easily usible for figure, poster and presentation design in [Inkscape](https://inkscape.org/en/) and [GIMP](https://www.gimp.org).
 
 ## Getting Started
 To use this repository you may either download it as a [zip file](https://github.com/kdoelling1919/palettesNYU/archive/master.zip) or clone it using the command line to move into the desired directory and typing
@@ -12,7 +12,7 @@ git clone https://github.com/kdoelling1919/palettesNYU.git
 ```
 
 ### Inkscape
-You can then add these palettes into the Inkscape palette directory. On Mac, this directory is often found in the ```~/.config``` folder but may have been moved elsewhere. If it is in the usual place, then you can use the following command in the command line to copy your new .gpl files over. Otherwise, you will need to replace the last path in the command with the correct directory. 
+You can then add these palettes into the Inkscape palette directory. On Mac, this directory is often found in the ```~/.config``` folder but may have been moved elsewhere. If it is in the usual place, then you can use the following command in the command line to copy your new .gpl files over. Otherwise, you will need to replace the last path in the command with the correct directory.
 
 ```
 cp palettesNYU/*.gpl ~/.config/inkscape/palettes/
