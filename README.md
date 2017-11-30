@@ -11,7 +11,11 @@ To use this repository you may either download it as a [zip file](https://github
 git clone https://github.com/kdoelling1919/palettesNYU.git
 ```
 
+Using this method will allow for much easier updating if changes are made to the package.
+
 ### Inkscape
+**Please note:** You must have Inkscape installed already for this to work. If you haven't installed Inkscape yet, please go to the [Inkscape website](https://inkscape.org/en/) and follow installation instructions.
+
 You can then add these palettes into the Inkscape palette directory. On Mac, this directory is often found in the ```~/.config``` folder but may have been moved elsewhere. If it is in the usual place, then you can use the following command in the command line to copy your new .gpl files over. Otherwise, you will need to replace the last path in the command with the correct directory.
 
 ```
@@ -19,6 +23,13 @@ cp palettesNYU/*.gpl ~/.config/inkscape/palettes/
 ```
 
 Once the files are in the inkscape palettes folder you should be able to find them in the palettes menu in Inkscape. Click on the black arrow at the bottom right of the inkscape window (right of the current color palette) and you should see the list of NYU color palettes.
+
+If you would like to update the palettes to the current state of the repo and you have used git to clone the repo, you can update the Inkscape palettes by first moving the command line into the palettesNYU directory and using the following commands
+
+```
+git pull origin master
+cp *.gpl ~/.config/inkscape/palettes
+```
 
 ### GIMP
 GIMP will be able to import these palettes directly by going to Windows -> Dockable Dialogs -> Palettes
